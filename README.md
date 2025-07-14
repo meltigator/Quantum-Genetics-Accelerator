@@ -55,27 +55,20 @@ If this resonates with you — let’s connect.
 
 Key Components:
 
-dna_sequence_generator.py: Generates input data (DNA sequences with aging-related factors).
-
-dna_quant_processor.v and quant_interface.v: Verilog modules for simulating “quantum” processing on an FPGA.
-
-quantum_dna_simulator.py: Python-based quantum simulator for validating and comparing results with the FPGA output.
-
-dna_analysis_ai.py: AI module for data analysis, classification, clustering, and cross-phase comparison.
-
-quantum_celebro_cerberus_v2.sh: Orchestration script that ties all these components together.
+- dna_sequence_generator.py: Generates input data (DNA sequences with aging-related factors).
+- dna_quant_processor.v and quant_interface.v: Verilog modules for simulating “quantum” processing on an FPGA.
+- quantum_dna_simulator.py: Python-based quantum simulator for validating and comparing results with the FPGA output.
+- dna_analysis_ai.py: AI module for data analysis, classification, clustering, and cross-phase comparison.
+- quantum_celebro_cerberus_v2.sh: Orchestration script that ties all these components together.
 
 You’re ready to enter the operational phase!
 
 The operational phase will mainly consist of:
 
-Pipeline Execution: Run the full processing chain using the quantum_celebro_cerberus_v2.sh script.
-
-Data Collection: Ensure that outputs from each phase (especially from the FPGA simulation and quantum simulator) are generated and saved correctly.
-
-In-depth Analysis: Use dna_analysis_ai.py to interpret results, compare simulations, identify patterns, and validate the effectiveness of your logic gates and aging models.
-
-Debugging and Optimization: During early runs, you’ll likely need to debug and optimize individual modules and their interactions.
+- Pipeline Execution: Run the full processing chain using the quantum_celebro_cerberus_v2.sh script.
+- Data Collection: Ensure that outputs from each phase (especially from the FPGA simulation and quantum simulator) are generated and saved correctly.
+- In-depth Analysis: Use dna_analysis_ai.py to interpret results, compare simulations, identify patterns, and validate the effectiveness of your logic gates and aging models.
+- Debugging and Optimization: During early runs, you’ll likely need to debug and optimize individual modules and their interactions.
 
 
 ##  License
