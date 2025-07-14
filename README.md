@@ -51,6 +51,6 @@ Open to collaboration in:
 
 If this resonates with you — let’s connect.
 
-## 📖 License
+##  License
 
 MIT License — open knowledge for an open future.
