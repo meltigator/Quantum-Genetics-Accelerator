@@ -1,6 +1,7 @@
 // dna_quant_processor.v
 // Quantum Genetics Accelerator - Core Processing Unit
 // Simulates quantum gates on DNA sequences using classical FPGA logic
+// Written by Andrea Giani
 
 module dna_quant_processor #(
     parameter DNA_WIDTH = 32,      // DNA sequence width in bits (16 bases, 2 bits each)
