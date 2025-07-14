@@ -1,6 +1,7 @@
 // quant_interface.v
 // Quantum Genetics Accelerator - Interface Module
 // Bridge between FPGA quantum processing and external analysis layers
+// Written by Andrea Giani
 
 module quant_interface #(
     parameter DNA_WIDTH = 32,
